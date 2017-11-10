@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+.carousel {
+    width:1200px;
+    /*height: 340px;*/
+    margin: 50px auto;
+}
+li {
+    position: absolute;
+    list-style: none;
+    transition: all 0.5s;
+}
+.images {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+.lines {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.lines a {
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.list1 {
+    transform:translateX(0) scale(0.81);
+    transform-origin:0 100%;
+    z-index:2;
+}
+.list2 {
+    transform: translateX(235px);
+    z-index: 3;
+}
+.list3 {
+    transform:translateX(730px) scale(0.81);
+    transform-origin:100% 100%;
+    z-index:2;
+}
+.list4 {
+    transform:translateX(965px) scale(0.81);
+    transform-origin:100% 100%;
+}
+.list5 {
+    transform:translateX(1200px) scale(0.81);
+}
+.list6 {
+    transform:translateX(1435px) scale(0.81);
+}
